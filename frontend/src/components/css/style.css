@@ -1,0 +1,383 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 100px 4px rgba(0, 144, 255, 0.2);
+}
+
+.formReg{
+    height: 550px;
+}
+
+.formInput{
+    padding: 15px 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.buttonInput{
+    padding: 15px 0px;
+    background-color: #0077ff;
+    width: 345px;
+    border-style: none;
+    color: #fff;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.authTitle{
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.bottomText{
+    margin-top: 30px;
+}
+
+.bottomText Link{
+    color: #0077ff;
+}
+
+.leftSide{
+    width: 30%;
+    background-color: #0077ff;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+}
+
+.homeTitle{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.gridHome{
+    display: flex;
+}
+
+.gridHome p{
+    font-family: Inter;
+}
+
+.rightSide{
+    width: 70%;
+    background: url('https://images.wallpaperscraft.ru/image/single/taksi_avtomobil_dozhd_134249_2560x1600.jpg');
+    background-size: cover;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperEdit{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 0px 17px -6px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.back img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.wrapperEditHeader{
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.inputFormEdit{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFormEdit input:focus{
+    outline: none;
+}
+
+.inputFormEdit.five{
+    width: 49%;
+}
+
+.formEdit{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputFormEdit{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formEdit{
+    margin-top: 30px;
+}
+
+.formEdit button{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #0077ff;
+    border-style: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.inputFormEdit input{
+    font-family: Montserrat;
+    padding: 10px;
+}
+
+.inputFormEdit label{
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.createOrder{
+    width: 100%;
+    padding: 15px;
+    border-style: none;
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 800;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.leftSideBottom{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.leftSideBottom button{
+    width: 76%;
+    background-color: #fff;
+    font-family: Montserrat;
+    padding: 10px 0px;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.leftSideTop{
+    margin-top: 48%;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 800;
+}
+
+.regisSelect{
+    width: 345px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-family: Montserrat;
+    background-color: #fff;
+}
+
+.regisSelect:-ms-expand{
+    margin-right: 20px;
+}
+
+.regisSelect:focus{
+    outline: none;
+}
+
+.regisSelect select{
+    margin-right: 20px;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.msg{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(0, 196, 0);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.orderGrid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    overflow-y: scroll;
+}
+
+.orderGrid::-webkit-scrollbar{
+    width: 0;
+}
+
+.order{
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.totalInfo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.headerRoutes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.routerTitle{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.routerPrice{
+    color: #0077ff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: #0077ff;
+    margin: 10px 0px;
+}
+
+.orderSettings{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.orderSettings span{
+    font-weight: 400;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-family: Inter;
+    font-size: 13px;
+}
+
+.getContact{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.getContact a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.wrapperEditHeader{
+    margin-bottom: 20px;
+}
+
+.usersTable{
+    width: 500px;
+    padding: 20px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.usersHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.usersName span{
+    font-size: 10px;
+}
+
+@media (max-width: 425px) {
+    #root{
+        overflow: hidden;
+    }
+
+    .rightSide{
+        display: none;
+    }
+
+    .leftSide{
+        width: 100%;
+    }
+
+    .formReg{
+        height: 500px;
+    }
+}
